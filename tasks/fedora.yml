@@ -1,0 +1,59 @@
+---
+- name: "Install common software"
+  include_role:
+    name: dotfiles-role-common-software
+
+- name: "Install and configure git"
+  include_role:
+    name: dotfiles-role-git
+  vars:
+    user_name: host_user_name
+    user_email: host_user_email
+
+- name: "Install and configure nano"
+  include_role:
+    name: dotfiles-role-nano
+
+- name: "Install and configure javascript"
+  include_role:
+    name: dotfiles-role-javascript
+  vars:
+    author_name: host_user_name
+    author_email: host_user_email
+    author_url: host_user_url
+
+- name: "Install and configure Powerline patched fonts"
+  include_role:
+    name: dotfiles-role-powerline-patched
+
+- name: "Install and configure Python"
+  include_role:
+    name: dotfiles-role-python
+
+- name: "Install and configure exa"
+  include_role:
+    name: dotfiles-role-rust
+
+- name: "Install and configure tmux"
+  include_role:
+    name: dotfiles-role-tmux
+
+- name: "Install and configure zsh and prezto"
+  include_role:
+    name: dotfiles-role-prezto
+
+- name: "Install and configure Sublime Text"
+  include_role:
+    name: dotfiles-role-sublime
+
+- name: "Install and configure Terminator"
+  include_role:
+    name: dotfiles-role-terminator
+
+- name: "Install and configure i3"
+  include_role:
+    name: dotfiles-role-i3
+
+# dotfiles-role-generic-template
+# dotfiles-role-package-installer
+# dotfiles-role-repo-installer
