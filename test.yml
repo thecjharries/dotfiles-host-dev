@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  connection: local
+
+  remote_user: root
+
+  roles:
+    - role: "{{ playbook_dir }}"
+      host_user_name: Rick James
+      host_user_email: something@clever.com
+      host_user_url: clever.com
