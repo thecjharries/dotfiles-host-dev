@@ -1,0 +1,4 @@
+---
+- name: "Execute Fedora 27 actions"
+  include_tasks: fedora_27.yml
+  when: ansible_distribution == 'Fedora' and ansible_distribution_version == '27'
