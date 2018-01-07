@@ -1,7 +1,7 @@
 # `dotfiles-host-dev`
 
 [![Build Status](https://travis-ci.org/thecjharries/dotfiles-host-dev.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-host-dev)
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/thecjharries/dotfiles-host-dev)
+[![GitHub release](https://img.shields.io/github/release/thecjharries/dotfiles-host-dev.svg)](https://github.com/thecjharries/dotfiles-host-dev)
 
 ## Requirements
 
